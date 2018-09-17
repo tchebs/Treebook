@@ -1,0 +1,70 @@
+<treebook id="1">
+  <users id="2">
+    <user id="3">
+      <phoneNumber>1234567890</phoneNumber>
+      <name>Aly</name>
+      <password>Abc123</password>
+      <isSuper>false</isSuper>
+      <treesPlanted>1</treesPlanted>
+      <treesCutDown>0</treesCutDown>
+      <treesRequested>0</treesRequested>
+      <trophies id="4">
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="5">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="6">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="7">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="8">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="9">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="10">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="11">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="12">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+        <ca.mcgill.ecse321.TreeBook.model.Trophy id="13">
+          <name></name>
+        </ca.mcgill.ecse321.TreeBook.model.Trophy>
+      </trophies>
+      <forecastTrees id="14"/>
+    </user>
+  </users>
+  <trees id="15">
+    <tree id="16">
+      <species>Oak</species>
+      <toBeChopped>false</toBeChopped>
+      <status>Planted</status>
+      <height>72.0</height>
+      <diameterOfCanopy>12.0</diameterOfCanopy>
+      <municipality>Ahunsic</municipality>
+      <diameterOfTrunk>1.0</diameterOfTrunk>
+      <landUse>Residential</landUse>
+      <whenPlanted id="17">2007-01-12</whenPlanted>
+      <reports>1</reports>
+      <whenCutDown id="18">2018-12-10</whenCutDown>
+      <lastSurvey id="19">2018-12-10</lastSurvey>
+      <id>4</id>
+      <coordinates id="20">
+        <latitude>12.0</latitude>
+        <longitude>27.0</longitude>
+      </coordinates>
+      <lastReportingPerson reference="3"/>
+      <treeSustainability id="21">
+        <co2Absorption>433424.5</co2Absorption>
+        <biodiversityIndex>1.0</biodiversityIndex>
+      </treeSustainability>
+    </tree>
+  </trees>
+  <requestedTrees id="22"/>
+</treebook>

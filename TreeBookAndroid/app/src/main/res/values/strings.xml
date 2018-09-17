@@ -1,0 +1,46 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="goAddTree_button">Plant a Tree</string>
+    <string name="goAddUser_button">Register</string>
+
+
+    <string name="newuser_hint">Username?</string>
+    <string name="newuserpass_hint">Password?</string>
+    <string name="newuserphoneNumber_hint">Phone Number</string>
+    <string name="newuser_button">Create User</string>
+
+
+    <string name="newtreespecies_hint">Species</string>
+    <string name="newtreediameterOfCanopy_hint">Diameter Of Canopy</string>
+    <string name="newtreemunicipality_hint">Municipality</string>
+    <string name="newtree_button">Plant Tree</string>
+    <string name="statusspinner_label">Tree Status</string>
+    <string name="landusespinner_label">Kind Of Land Use</string>
+    <string name="newtreeheight_hint">Tree Height</string>
+    <string name="newtreeimage_hint">Image link</string>
+    <string name="newtree_whenPlanted">When planted</string>
+    <string name="newtree_date_first">01-01-2017</string>
+    <string name="tobechopped_label">To Be Chopped</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="goLogin_Button">Login</string>
+    <string name="title_activity_view_trees_page">ViewTreesPage</string>
+    <string name="goViewTrees_button">View Tree Database</string>
+    <string name="login_button">Login</string>
+    <string name="viewTrees_button">View Trees</string>
+    <string name="title_activity_edit_tree">EditTreeActivity</string>
+    <string name="newtreediameterOfTrunk_hint">Diameter Of Trunk</string>
+    <string name="newtreelatitude_hint">Latitude</string>
+    <string name="newtreelongitude_hint">Longitude</string>
+    <string name="newtree_id">ID?</string>
+    <string name="goEditTreePage_Button">Edit an existing tree!</string>
+    <string name="title_activity_cut_tree">CutTreeActivity</string>
+    <string name="cutTree_button">Cut Tree!</string>
+    <string name="goCutTree_Button">Cut a Tree!</string>
+    <string name="title_activity_request_tree">RequestTree</string>
+    <string name="requestTree_button">Request Tree</string>
+    <string name="goRequestTreePage_Button">Request a Tree</string>
+    <string name="editTree_button">Edit Tree</string>
+
+</resources>

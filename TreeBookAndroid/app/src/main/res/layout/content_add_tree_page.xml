@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddTreePage"
+    tools:showIn="@layout/activity_add_tree_page">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:text=""
+            android:textColor="@color/colorAccent"/>
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="#16552e"/>
+
+        <!--Fills in the details for the username.-->
+        <EditText android:id="@+id/newuser_name"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newuser_hint"/>
+        <!--Fills in the details for the user's password.-->
+        <EditText android:id="@+id/newuser_pass"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newuserpass_hint"/>
+
+        <!--Fills in the details for the new tree species.-->
+        <EditText android:id="@+id/newtree_species"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/newtreespecies_hint"/>
+
+        <!--Fills in the details for the new tree height.-->
+        <EditText android:id="@+id/newtree_height"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreeheight_hint"/>
+
+        <!--Fills in the details for the new tree diameter of Canopy.-->
+        <EditText android:id="@+id/newtree_diameterOfCanopy"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreediameterOfCanopy_hint"/>
+
+        <!--Fills in the details for the new tree diameter of Trunk.-->
+        <EditText android:id="@+id/newtree_diameterOfTrunk"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreediameterOfTrunk_hint"/>
+
+        <!--Fills in the details for the new tree municipality.-->
+        <EditText android:id="@+id/newtree_municipality"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreemunicipality_hint"/>
+
+        <!--Fills in the details for the new tree latitude.-->
+        <EditText android:id="@+id/newtree_latitude"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreelatitude_hint"/>
+
+        <!--Fills in the details for the new tree longitude.-->
+        <EditText android:id="@+id/newtree_longitude"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreelongitude_hint"/>
+
+        <!--When planted-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/newtree_whenPlanted" />
+
+            <TextView
+                android:id="@+id/newtree_whenPlanted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:onClick="showDatePickerDialog"
+                android:text="@string/newtree_date_first" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <!--Create the dropdown menu for the Tree Status-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/statusspinner_label" />
+
+                <Spinner
+                    android:id="@+id/statusspinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+            <!--Create the dropdown menu for toBeChopped-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tobechopped_label" />
+
+                <Spinner
+                    android:id="@+id/tobechoppedspinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+
+            <!--Create the dropdown menu for the Kind of Land Use-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/landusespinner_label" />
+
+                <Spinner
+                    android:id="@+id/landusespinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--New Tree button.-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/newtree_button"
+            android:onClick="addTree"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

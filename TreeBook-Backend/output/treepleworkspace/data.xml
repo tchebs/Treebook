@@ -1,0 +1,42 @@
+<treebook id="1">
+  <users id="2">
+    <user id="3">
+      <phoneNumber>12</phoneNumber>
+      <name>Tudor</name>
+      <password>Abc123</password>
+      <isSuper>false</isSuper>
+      <treesPlanted>0</treesPlanted>
+      <treesCutDown>0</treesCutDown>
+      <treesRequested>0</treesRequested>
+      <trophies id="4"/>
+      <forecastTrees id="5"/>
+    </user>
+  </users>
+  <trees id="6">
+    <tree id="7">
+      <species>Oak</species>
+      <toBeChopped>false</toBeChopped>
+      <status>Planted</status>
+      <height>72.0</height>
+      <diameterOfCanopy>12.0</diameterOfCanopy>
+      <municipality>Ahunsic</municipality>
+      <diameterOfTrunk>5.0</diameterOfTrunk>
+      <landUse>Residential</landUse>
+      <whenPlanted id="8">2007-01-12</whenPlanted>
+      <reports>1</reports>
+      <whenCutDown id="9">2018-12-10</whenCutDown>
+      <lastSurvey id="10">2018-12-10</lastSurvey>
+      <id>72</id>
+      <coordinates id="11">
+        <latitude>12.0</latitude>
+        <longitude>27.0</longitude>
+      </coordinates>
+      <lastReportingPerson reference="3"/>
+      <treeSustainability id="12">
+        <co2Absorption>12.0</co2Absorption>
+        <biodiversityIndex>25.0</biodiversityIndex>
+      </treeSustainability>
+    </tree>
+  </trees>
+  <requestedTrees id="13"/>
+</treebook>

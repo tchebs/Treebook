@@ -1,0 +1,120 @@
+enum KindOfLandUse { residential, institutional, park, municipal}
+enum Status { planted,diseased,toBeCutDown, cutDown}
+
+class TreeBook{
+  1 ->* User users;
+  1 ->* Tree trees;
+  1 ->* Location requestedTrees;
+}
+
+class User{
+  1->* Trophy trophies;
+  1->* ForecastTree forecastTrees;
+  String phoneNumber;
+  String name;
+  String password;
+  Boolean isSuper;
+  int treesPlanted = 0;
+  int treesCutDown = 0;
+  int treesRequested = 0;
+}
+
+
+class Trophy{
+String name;
+}
+
+class Tree{
+
+  autounique id;
+  String species;
+  Boolean toBeChopped;
+  Status status;
+  float height;
+  float diameterOfCanopy;
+  String municipality; 
+  float diameterOfTrunk;
+  KindOfLandUse landUse;
+  Date whenPlanted;
+  int reports;
+  Date whenCutDown;
+  Date lastSurvey;
+  1->1 Location coordinates;
+  1->1 User lastReportingPerson;
+  1->1 SustainabilityAttributes treeSustainability;
+}
+
+
+class ForecastTree{
+
+  autounique id;
+  String species;
+  Boolean toBeChopped;
+  Status status;
+  float height;
+  float diameterOfCanopy;
+  String municipality; 
+  float diameterOfTrunk;
+  KindOfLandUse landUse;
+  Date whenPlanted;
+  int reports;
+  Date whenCutDown;
+  Date lastSurvey;
+  1->1 Location coordinates;
+  1->1 ForecastSustainabilityAttributes treeSustainability;
+}
+
+class Location{
+  float latitude;
+  float longitude;
+}
+
+class ForecastSustainabilityAttributes{
+ float co2Absorption;
+ float biodiversityIndex;
+}
+
+class SustainabilityAttributes{
+ float co2Absorption;
+ float biodiversityIndex;
+}//$?[End_of_model]$?
+
+class TreeBook
+{
+  position 50 30 109 45;
+}
+
+class User
+{
+  position 50 130 109 45;
+}
+
+class Trophy
+{
+  position 50 230 109 45;
+}
+
+class Tree
+{
+  position 50 330 109 45;
+}
+
+class ForecastTree
+{
+  position 50 430 109 45;
+}
+
+class Location
+{
+  position 250 30 109 45;
+}
+
+class ForecastSustainabilityAttributes
+{
+  position 250 130 109 45;
+}
+
+class SustainabilityAttributes
+{
+  position 250 230 109 45;
+}

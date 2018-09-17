@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RequestTree"
+    tools:showIn="@layout/activity_request_tree">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/error"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:text=""
+            android:textColor="@color/colorAccent"/>
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:background="#16552e"/>
+
+        <!--Fills in the details for the username.-->
+        <EditText android:id="@+id/newuser_name"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newuser_hint"/>
+        <!--Fills in the details for the user's password.-->
+        <EditText android:id="@+id/newuser_pass"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newuserpass_hint"/>
+
+        <!--Fills in the details for the new tree latitude.-->
+        <EditText android:id="@+id/newtree_latitude"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreelatitude_hint"/>
+
+        <!--Fills in the details for the new tree longitude.-->
+        <EditText android:id="@+id/newtree_longitude"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:hint="@string/newtreelongitude_hint"/>
+
+        <!--New Tree button.-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/requestTree_button"
+            android:onClick="requestTree"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

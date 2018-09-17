@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" tests="64" skipped="0" failures="0" errors="0" timestamp="2018-03-27T01:21:51" hostname="softeng-vm" time="0.21">
+  <properties/>
+  <testcase name="testEmptyMunicipality" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCreatePasswordNoUppercase" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testFindUserByUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.005"/>
+  <testcase name="testLoginNullUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.002"/>
+  <testcase name="testLoginEmptyUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.003"/>
+  <testcase name="testFindTreeByID" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.012"/>
+  <testcase name="testCreateUserDuplicatePhoneNumber" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.002"/>
+  <testcase name="testCutDownTree" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.005"/>
+  <testcase name="testAddUser" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCreateUserPhoneNumberNotTenDigits" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testPlantTree" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.006"/>
+  <testcase name="testCreateUserUsernameNull" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testGetAllTrees" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.004"/>
+  <testcase name="testGetAllUsers" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testEmptySpecies" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.002"/>
+  <testcase name="testNullSpecies" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testLoginIncorrectUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.003"/>
+  <testcase name="testAddUserEmptyName" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testLoginNullPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testCreatePasswordNoDigits" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testLoginEmptyPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCreatePasswordWithSymbol" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCreateShortPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.002"/>
+  <testcase name="testCreateUserDuplicateUser" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCutDownTreeNullUser" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.003"/>
+  <testcase name="testLoginIncorrectPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.004"/>
+  <testcase name="testCutDownTreeAlreadyCutDown" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.006"/>
+  <testcase name="testCreateUserUsernameSpaces" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testCreatePasswordNoLowercase" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testPhoneNumberContent" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testNullMunicipality" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCutDownNullTree" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testEmptyMunicipality" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.003"/>
+  <testcase name="testCreatePasswordNoUppercase" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testFindUserByUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testLoginNullUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testLoginEmptyUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testFindTreeByID" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.003"/>
+  <testcase name="testCreateUserDuplicatePhoneNumber" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCutDownTree" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.009"/>
+  <testcase name="testAddUser" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.002"/>
+  <testcase name="testCreateUserPhoneNumberNotTenDigits" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testPlantTree" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.008"/>
+  <testcase name="testCreateUserUsernameNull" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testGetAllTrees" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.005"/>
+  <testcase name="testGetAllUsers" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testEmptySpecies" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testNullSpecies" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testLoginIncorrectUsername" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testAddUserEmptyName" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testLoginNullPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCreatePasswordNoDigits" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testLoginEmptyPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testCreatePasswordWithSymbol" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCreateShortPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testCreateUserDuplicateUser" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCutDownTreeNullUser" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.003"/>
+  <testcase name="testLoginIncorrectPassword" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCutDownTreeAlreadyCutDown" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.002"/>
+  <testcase name="testCreateUserUsernameSpaces" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testCreatePasswordNoLowercase" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.0"/>
+  <testcase name="testPhoneNumberContent" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.004"/>
+  <testcase name="testNullMunicipality" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <testcase name="testCutDownNullTree" classname="ca.mcgill.ecse321.TreeBook.service.TestTreeBookService" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
